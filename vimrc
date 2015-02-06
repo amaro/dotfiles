@@ -1,8 +1,9 @@
 syntax on
-"let g:solarized_termcolors = 256
+let g:solarized_termcolors = 256
+set t_Co=256
 set number
 set background=dark
-"colorscheme solarized
+colorscheme solarized
 set hlsearch
 set bs=2
 set ai
