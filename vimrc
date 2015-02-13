@@ -14,3 +14,5 @@ set expandtab
 set autoread
 set noswapfile
 set cursorline
+
+autocmd BufWritePre * :%s/\s\+$//e
