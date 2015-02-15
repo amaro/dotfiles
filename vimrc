@@ -14,5 +14,7 @@ set expandtab
 set autoread
 set noswapfile
 set cursorline
+set laststatus=2        " show statusline
+set statusline+=%F      " show current file path in status line
 
 autocmd BufWritePre * :%s/\s\+$//e
