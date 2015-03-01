@@ -18,3 +18,10 @@ set laststatus=2        " show statusline
 set statusline+=%F      " show current file path in status line
 
 autocmd BufWritePre * :%s/\s\+$//e
+
+if has("gui_running")
+    if has("gui_macvim")
+        set guifont=Monaco:h10
+        set noantialias
+    endif
+endif
