@@ -8,3 +8,4 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 alias grep='grep --color=auto'
+HISTSIZE=10000
