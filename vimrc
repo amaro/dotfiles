@@ -8,8 +8,8 @@ set hlsearch
 set bs=2
 set ai
 set ruler
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set autoread
 set noswapfile
