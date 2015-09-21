@@ -1,6 +1,3 @@
-GIT_PROMPT_FETCH_REMOTE_STATUS=0
-source ~/configs/bash/bash-git-prompt/gitprompt.sh
-
 if [[ "$OSTYPE" == "linux-gnu" ]]; then
     alias ls='ls --color=auto'
 elif [[ "$OSTYPE" == "darwin"* ]]; then
@@ -8,4 +5,5 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 alias grep='grep --color=auto'
+alias tmux="tmux -2"
 HISTSIZE=10000
