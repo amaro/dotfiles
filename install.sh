@@ -9,6 +9,7 @@ rm -rf ~/.vim
 rm -rf ~/.gitconfig
 rm -rf ~/.bashrc
 rm -rf ~/.bash_profile
+rm -rf ~/.zshrc
 
 echo "creating new files"
 ln -s "${curdir}/vimrc" ~/.vimrc
