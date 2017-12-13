@@ -10,6 +10,7 @@ rm -rf ~/.gitconfig
 rm -rf ~/.bashrc
 rm -rf ~/.bash_profile
 rm -rf ~/.zshrc
+rm -rf ~/.tmux.conf
 
 echo "creating new files"
 ln -s "${curdir}/vimrc" ~/.vimrc
@@ -18,3 +19,4 @@ ln -s "${curdir}/gitconfig" ~/.gitconfig
 ln -s "${curdir}/bashrc" ~/.bashrc
 ln -s "${curdir}/bash_profile" ~/.bash_profile
 ln -s "${curdir}/zshrc" ~/.zshrc
+ln -s "${curdir}/tmux.conf" ~/.tmux.conf
