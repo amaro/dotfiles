@@ -11,6 +11,7 @@ rm -rf ~/.bashrc
 rm -rf ~/.bash_profile
 rm -rf ~/.zshrc
 rm -rf ~/.tmux.conf
+rm -rf ~/.config/nvim/init.vim
 
 echo "creating new files"
 ln -s "${curdir}/vimrc" ~/.vimrc
@@ -20,3 +21,6 @@ ln -s "${curdir}/bashrc" ~/.bashrc
 ln -s "${curdir}/bash_profile" ~/.bash_profile
 ln -s "${curdir}/zshrc" ~/.zshrc
 ln -s "${curdir}/tmux.conf" ~/.tmux.conf
+mkdir ~/.config -p
+mkdir ~/.config/nvim -p
+ln -s "${curdir}/init.vim" ~/.config/nvim/init.vim
